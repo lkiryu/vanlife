@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 10vh;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header nav{
+    display: flex;
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 30px;
+}
+
+.header nav a{
+    position: relative;
+    transition: 0.3s ease-in;
+}
+
+.header nav a:hover{
+    color: #161616;
+}
+
+.header nav a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    background-color: #161616;
+    transition: width 0.3s;
+}
+
+.header nav a:hover::after{
+    width: 100%;
+}
+
+.header nav a.active{
+    color: #161616;
+}
+
+.header nav a.active::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    background-color: #161616;
+}

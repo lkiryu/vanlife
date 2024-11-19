@@ -1,0 +1,127 @@
+.host-vans-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.host-vans-details .back-button {
+    margin-bottom: 20px;
+    color: #858585;
+}
+
+.host-vans-details .back-button span {
+    text-decoration: underline;
+    color: #201F1D;
+    margin-left: 5px;
+}
+
+.host-vans-details .host-vans-details-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 25px;
+    width: 550px;
+}
+
+.host-vans-details .host-vans-overview {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.host-vans-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.host-vans-details .host-vans-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.host-vans-info .host-vans-type {
+    color: #FFEAD0;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.host-vans-info .host-vans-type.Rugged{
+    background-color: #115E59;
+}
+
+.host-vans-info .host-vans-type.Simple{
+    background-color: #E17654;
+}
+
+.host-vans-info .host-vans-type.Luxury{
+    background-color: #161616;
+}
+
+.host-vans-info .host-vans-name{
+    color: #161616;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.host-vans-info .host-vans-price{
+    font-size: 20px;
+}
+
+.host-vans-info .host-vans-price .day{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.host-vans-navbar{
+    display: flex;
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    gap: 30px;
+}
+
+.host-vans-navbar a{
+    position: relative;
+    transition: 0.3s ease-in;
+}
+
+.host-vans-navbar a:hover{
+    color: #161616;
+}
+
+.host-vans-navbar a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    background-color: #161616;
+    transition: width 0.3s;
+}
+
+.host-vans-navbar a:hover::after{
+    width: 100%;
+}
+
+.host-vans-navbar a.active{
+    color: #161616;
+}
+
+.host-vans-navbar a.active::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    background-color: #161616;
+}

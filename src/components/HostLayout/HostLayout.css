@@ -1,0 +1,54 @@
+.host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh
+}
+
+.host .host-nav{
+    display: flex;
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.host .host-nav a{
+    position: relative;
+    transition: 0.3s ease-in;
+}
+
+.host .host-nav a:hover{
+    color: #161616;
+}
+
+.host .host-nav a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    background-color: #161616;
+    transition: width 0.3s;
+}
+
+.host .host-nav a:hover::after{
+    width: 100%;
+}
+
+.host .host-nav a.active{
+    color: #161616;
+}
+
+.host .host-nav a.active::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    background-color: #161616;
+}

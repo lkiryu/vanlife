@@ -1,0 +1,53 @@
+.host-vans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.host-vans .host-vans-title{
+    margin-bottom: 30px;
+}
+
+.host-vans .host-vans-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.host-vans .host-van-single{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 25px;
+    width: 500px;
+}
+
+.host-vans .host-van-single a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.host-van-single img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.host-van-single .host-van-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.host-van-single .host-van-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.host-van-single .host-van-price{
+    font-weight: 16px;
+    color: #4d4d4d;
+}

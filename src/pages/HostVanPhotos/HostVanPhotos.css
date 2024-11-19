@@ -1,0 +1,10 @@
+.host-van-photos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.host-van-photos .host-van-photo{
+    width: 100px;
+    height: 100px;
+}

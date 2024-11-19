@@ -1,0 +1,21 @@
+.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.not-found .title{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.not-found .return-button{
+    font-size: 18px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+}

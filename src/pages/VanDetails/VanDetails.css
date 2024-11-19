@@ -1,0 +1,93 @@
+.vanDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 50px;
+    color: #161616;
+}
+
+.van-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.van-detail .back-button{
+    margin-bottom: 40px;
+    color: #858585;
+}
+
+.van-detail .back-button span{
+    text-decoration: underline;
+    color: #201F1D;
+    margin-left: 5px;
+}
+
+.van-detail img{
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.van-detail .van-type{
+    color: #FFEAD0;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.van-detail .van-type.Rugged{
+    background-color: #115E59;
+}
+
+.van-detail .van-type.Simple{
+    background-color: #E17654;
+}
+
+.van-detail .van-type.Luxury{
+    background-color: #161616;
+}
+
+.van-detail .van-name{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.van-detail .van-price{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.van-detail .van-price .day{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.van-detail .van-description{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.van-detail .rent-button{
+    background-color: #FF8C38;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.van-detail .rent-button:hover{
+    background-color: #e46e1a;
+}
